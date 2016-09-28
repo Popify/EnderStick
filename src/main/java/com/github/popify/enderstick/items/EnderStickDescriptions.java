@@ -1,3 +1,5 @@
 //package com.github.popify.enderstick.items;
 
-//NO USE 
+//NO USE.
+
+//public class EnderStickDescriptions extends EnderStickItems;

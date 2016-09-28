@@ -26,7 +26,11 @@ public class BasicItem extends Item
 	{
 		super();
 		
-		this.setUnlocalizedName(enderStick);
-		this.setCreativeTab(CreativeTabs.tabTransport);
+		//EnderStick = new EnderStickItems().setCreativeTab(CreativeTabs.tabTransport);
+
+		
+						
+					this.setUnlocalizedName(enderStick);
+					this.setCreativeTab(CreativeTabs.tabTransport);
 	}
 }

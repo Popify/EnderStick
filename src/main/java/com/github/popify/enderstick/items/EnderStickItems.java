@@ -48,6 +48,11 @@ public final class EnderStickItems
 {
 	public static Item enderStick;
 	
+	/*public void addInformation(ItemStack none, EntityPlayer player, List enderStickDescription, boolean bool)
+	{
+		enderStickDescription.add("THIS WAS HELL");
+	}
+	*/
 	public static void createItems() 
 	{
 		//.regsiterItem is call for a new BasicItem named "ender_stick"
@@ -55,11 +60,9 @@ public final class EnderStickItems
 	}
 	//This is the tooltip
 	//Declare Side?
-	@SideOnly(Side.CLIENT)
-	public static void addInformation(ItemStack itemStack, EntityPlayer player, List dataList, boolean bool)
-	{
-		dataList.add("This is a test");
-		dataList.add("This is a" + EnumChatFormatting.GOLD + " miracle!");
-	}
+	
+	//	dataList.add("This is a test");
+	//	dataList.add("This is a" + EnumChatFormatting.GOLD + " miracle!");
+	//}
 }
 
