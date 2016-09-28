@@ -24,7 +24,7 @@ public class BasicItem extends Item
 {
 	public BasicItem(String enderStick)
 	{
-		super();
+		
 		
 		//EnderStick = new EnderStickItems().setCreativeTab(CreativeTabs.tabTransport);
 

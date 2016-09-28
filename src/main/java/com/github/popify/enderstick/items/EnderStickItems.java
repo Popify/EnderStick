@@ -44,7 +44,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-public final class EnderStickItems 
+public final class EnderStickItems extends BasicItem
 {
 	public static Item enderStick;
 	
@@ -57,6 +57,12 @@ public final class EnderStickItems
 	{
 		//.regsiterItem is call for a new BasicItem named "ender_stick"
 		GameRegistry.registerItem(enderStick = new BasicItem("ender_stick"), "ender_stick");
+	}
+	@SideOnly(Side.CLIENT)
+	@Override
+	public void addInformation(ItemStack stack, EntityPlayer player, List enderDescription, boolean bool)
+	{
+		
 	}
 	//This is the tooltip
 	//Declare Side?
