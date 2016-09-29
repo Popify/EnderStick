@@ -17,7 +17,9 @@ public final class EnderStickRegister
 }
 */
 
-package com.github.popify.enderstick.client.render.items;
+/*
+ * package com.github.popify.enderstick.client.render.items;
+ 
 
 import com.github.popify.enderstick.EnderStick;
 import com.github.popify.enderstick.items.EnderStickItems;
@@ -35,3 +37,8 @@ public final class EnderStickRegister
 	
 	
 }
+*/
+
+
+
+

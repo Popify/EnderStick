@@ -28,7 +28,7 @@ public class CommonProxy
 */
 //Fresh Start 9/27/16
 
-package com.github.popify.enderstick;
+/*package com.github.popify.enderstick;
 
 import com.github.popify.enderstick.items.EnderStickItems;
 
@@ -42,6 +42,34 @@ public class CommonProxy
 	{
 		//Registers the item on both ends (proxies)
 		EnderStickItems.createItems();
+	}
+	
+	public void init(FMLInitializationEvent e)
+	{
+		
+	}
+	
+	public void postInit(FMLPostInitializationEvent e)
+	{
+		
+	}
+}
+*/
+
+
+//Building 9/28/16
+
+package com.github.popify.enderstick;
+
+import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+
+public class CommonProxy
+{
+	public void preInit(FMLPreInitializationEvent e)
+	{
+		
 	}
 	
 	public void init(FMLInitializationEvent e)

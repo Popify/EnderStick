@@ -52,7 +52,7 @@ public class EnderStick
 //Fresh Start 9/27/16
 
 //Rebuild Basic Mod File
-
+/*
 package com.github.popify.enderstick;
 
 //ctr+shift+o for auto imports
@@ -65,7 +65,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
-//specify in class not here
+//specify MODID, MODNAME, and VERSION in class not here
 @Mod(modid = EnderStick.MODID, name = EnderStick.MODNAME, version = EnderStick.VERSION)
 
 
@@ -105,7 +105,50 @@ public class EnderStick
 	
 	
 }
+*/
+//Building 9/28/16
 
+package com.github.popify.enderstick;
+
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.Mod.EventHandler;
+import net.minecraftforge.fml.common.Mod.Instance;
+import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+
+@Mod(modid = EnderStick.MODID, version = EnderStick.VERSION, name = EnderStick.NAME)
+
+public class EnderStick
+{
+	//Information about the Mod that's being created
+	//MODID and NAME are required, VERSION is a luxury
+	public static final String MODID = "enderstick";
+	public static final String VERSION = "1.0.1";
+	public static final String NAME = "Ender Stick";
+	
+	@Instance
+	public static EnderStick instance = new EnderStick();
+	
+	@EventHandler
+	public void preInit(FMLPreInitializationEvent e)
+	{
+		
+	}
+	
+	@EventHandler
+	public void init(FMLInitializationEvent e)
+	{
+		
+	}
+	
+	@EventHandler
+	public void postInit(FMLPostInitializationEvent e)
+	{
+		
+	}
+}
+	
 
 
 

@@ -34,6 +34,7 @@ public final class EnderStickItem
 
 package com.github.popify.enderstick.items;
 
+/*
 import java.util.List;
 
 import net.minecraft.entity.player.EntityPlayer;
@@ -44,26 +45,26 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-public final class EnderStickItems extends BasicItem
+public final class EnderStickItems 
 {
 	public static Item enderStick;
 	
-	/*public void addInformation(ItemStack none, EntityPlayer player, List enderStickDescription, boolean bool)
+	public void addInformation(ItemStack none, EntityPlayer player, List enderStickDescription, boolean bool)
 	{
 		enderStickDescription.add("THIS WAS HELL");
 	}
-	*/
+	
 	public static void createItems() 
 	{
 		//.regsiterItem is call for a new BasicItem named "ender_stick"
 		GameRegistry.registerItem(enderStick = new BasicItem("ender_stick"), "ender_stick");
 	}
-	@SideOnly(Side.CLIENT)
-	@Override
-	public void addInformation(ItemStack stack, EntityPlayer player, List enderDescription, boolean bool)
-	{
+	//@SideOnly(Side.CLIENT)
+	//@Override
+	//public void addInformation(ItemStack stack, EntityPlayer player, List enderDescription, boolean bool)
+	//{
 		
-	}
+	//}
 	//This is the tooltip
 	//Declare Side?
 	
@@ -71,4 +72,4 @@ public final class EnderStickItems extends BasicItem
 	//	dataList.add("This is a" + EnumChatFormatting.GOLD + " miracle!");
 	//}
 }
-
+*/

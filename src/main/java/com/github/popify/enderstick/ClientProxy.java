@@ -35,7 +35,9 @@ public class ClientProxy extends CommonProxy
 }
 */
 
-package com.github.popify.enderstick;
+/*Built 9/28/16
+ * package com.github.popify.enderstick;
+ 
 
 import com.github.popify.enderstick.client.render.items.EnderStickRegister;
 
@@ -66,4 +68,8 @@ public class ClientProxy extends CommonProxy
 		super.postInit(e);
 	}
 }
+
+*/
+
+//Building 9/28/16
 
