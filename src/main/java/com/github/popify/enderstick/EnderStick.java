@@ -113,6 +113,7 @@ package com.github.popify.enderstick;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
+import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
@@ -124,8 +125,12 @@ public class EnderStick
 	//Information about the Mod that's being created
 	//MODID and NAME are required, VERSION is a luxury
 	public static final String MODID = "enderstick";
-	public static final String VERSION = "1.0.1";
+	public static final String VERSION = "1.0.2";
 	public static final String NAME = "Ender Stick";
+	
+	//Call proxies below
+	@SidedProxy(clientSide="com.github.popify.enderstick.ClientProxy", serverSide="com.github.popify.enderstick.ServerProxy")
+	public static CommonProxy proxy;
 	
 	@Instance
 	public static EnderStick instance = new EnderStick();

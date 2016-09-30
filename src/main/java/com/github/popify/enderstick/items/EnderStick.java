@@ -1,3 +1,4 @@
+//package com.github.popify.enderstick.items;
 /*
 package com.github.popify.items;
 
@@ -32,7 +33,7 @@ public final class EnderStickItem
 
 //Fresh Start 9/27/16
 
-package com.github.popify.enderstick.items;
+//package com.github.popify.enderstick.items;
 
 /*
 import java.util.List;
@@ -73,3 +74,24 @@ public final class EnderStickItems
 	//}
 }
 */
+
+//Building 9/29/16
+
+package com.github.popify.enderstick.items;
+
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
+
+public class EnderStick extends Item
+{
+	public EnderStick()
+	{
+		final int MAX_STACK_OF_STICKS = 1;
+		this.setMaxStackSize(MAX_STACK_OF_STICKS);
+		this.setCreativeTab(CreativeTabs.tabTransport);
+	}
+	
+	
+}
+
+
